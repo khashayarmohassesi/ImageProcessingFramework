@@ -1,0 +1,27 @@
+[
+  {
+    "Id": "PhotoshopSelect",
+    "DisplayName": "PhotoshopSelect",
+    "TypeName": "Photoshop.Plugins.Select",
+    "AssemblyPath": "plugins/Photoshop.SelectPlugin.dll",
+    "Parameter": {
+      "Name": "Size",
+      "Kind": "Int",
+      "Min": 1,
+      "Max": 1024
+    }
+  }
+  ,
+  {
+    "Id": "PaintBucket",
+    "DisplayName": "PaintBucket",
+    "TypeName": "Microsoft.Paint.Plugins.Bucket",
+    "AssemblyPath": "plugins/Paint.BucketPlugin.dll",
+    "Parameter": {
+      "Name": "Size",
+      "Kind": "Bool",
+      "Min": 1,
+      "Max": 1024
+    }
+  }
+]
